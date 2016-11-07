@@ -9,15 +9,15 @@
     "instructionPre": "",
     "instructionPost": "",
     "instructionAudio": "",
-    "boxImage0": "",
-    "boxImage1": "",
+    "image0": "",
+    "image1": "",
     "words": [
-      { "image": "", "correctBox": 0, "audio": "" },
-      { "image": "", "correctBox": 0, "audio": "" },
-      { "image": "", "correctBox": 0, "audio": "" },
-      { "image": "", "correctBox": 0, "audio": "" },
-      { "image": "", "correctBox": 0, "audio": "" },
-      { "image": "", "correctBox": 0, "audio": "" }
+      { "image": "", "correctImage": 0, "audio": "" },
+      { "image": "", "correctImage": 0, "audio": "" },
+      { "image": "", "correctImage": 0, "audio": "" },
+      { "image": "", "correctImage": 0, "audio": "" },
+      { "image": "", "correctImage": 0, "audio": "" },
+      { "image": "", "correctImage": 0, "audio": "" }
     ]
   }
 }

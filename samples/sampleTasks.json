@@ -1,8 +1,42 @@
+
 {
   "tasks": [
     {
+      "kind": "TaskType1",
+      "identifier": 0,
+      "morph": "u",
+      "affix": "prefix",
+      "stem": "vanlig",
+      "morphedStem": "uvanlig",
+      "samplePage": {
+        "instructionPre": "Det er",
+        "instructionPost": "å bruke sko som ligner på disse.",
+        "instructionAudio": "vanligsko.mp3",
+        "instructionAudio2": "uvanligsko.mp3",
+        "image1": "vanligsko.jpg",
+        "audio1": "",
+        "caption1Pre": "",
+        "caption1Post": "",
+        "image2": "uvanligsko",
+        "audio2": "uvanligsko.jpg",
+        "caption2Pre": "",
+        "caption2Post": ""
+      },
+      "challenge": {
+        "instructionPre": "Trykk på skoene det er",
+        "instructionPost": "å bruke.",
+        "instructionAudio": "instruksjon.mp3",
+        "image1": "vanligsko2",
+        "audio1": "",
+        "image2": "uvanligsko2",
+        "audio2": "",
+        "caption2": ""
+      }
+    },
+
+    {
       "kind": "TaskType2",
-      "identifier": 10,
+      "identifier": 1,
       "morph": "u",
       "affix": "prefix",
       "stem": "orden",
@@ -10,85 +44,125 @@
       "firstPage": {
         "instructionPre": "Trykk på bildet som viser ",
         "instructionPost": ".",
-        "instructionAudio": "",
-        "image1": "aaaa.jpg",
-        "image2": "bbbb.jpg",
-        "image3": "cccc.jpg",
-        "image4": "dddd.jpg",
+        "instructionAudio": "instruksjon-orden.mp3",
+        "image1": "orden.jpg",
+        "image2": "uorden1.jpg",
+        "image3": "uorden2.jpg",
+        "image4": "uorden3.jpg",
         "correct": [1]
       },
       "secondPage": {
-        "instructionPre": "Trykk på bildene som viser ",
+        "instructionPre": "Trykk på bildene som viser",
         "instructionPost": ".",
-        "instructionAudio": "1111.mp3",
-        "image1": "1111.jpg",
-        "image2": "2222.jpg",
-        "image3": "3333.jpg",
-        "image4": "4444.jpg",
-        "correct": [1,3,4]
+        "instructionAudio": "instruksjon-uorden.mp3",
+        "image1": "orden2.jpg",
+        "image2": "uorden4.jpg",
+        "image3": "uorden5.jpg",
+        "image4": "uorden6.jpg",
+        "correct": [2,3,4]
       }
     },
     {
-      "kind": "TaskType6",
-      "identifier": 6,
+      "kind": "TaskType3",
+      "identifier": 2,
       "morph": "u",
-      "affix": "prefix",
-      "stem": "orden",
-      "morphedStem": "uorden",
+      "affix": "",
+      "stem": "farlig",
+      "morphedStem": "ufarlig",
       "firstPage": {
-        "instruction": "First intro first intro first intro first intro first intro first intro first intro",
-        "instructionAudio": "instruction1.mp3",
-        "instruction2": "Trekk strek mellom ord og bilde",
-        "instruction2Audio": "instruction2.mp3",
-        "boxImage0": "ordered.jpg",
-        "boxImage1": "unordered.jpg",
+        "instructionPre": "Trykk på ordene som viser til noe ",
+        "instructionPost": ".",
+        "instructionAudio": "instruksjon-farlig.mp3",
+        "image": "",
         "words": [
-          { "word": "ute", "correctBox": -1, "audio": "ute.mp3" },
-          { "word": "orden", "correctBox": 0, "audio": "orden.mp3" },
-          { "word": "orker", "correctBox": -1, "audio": "orker.mp3" },
-          { "word": "uorden", "correctBox": 1, "audio": "uorden.mp3" }
+          { "word": "brann", "correct": true, "audio": "" },
+          { "word": "brannslange", "correct": false, "audio": "" },
+          { "word": "bok", "correct": false, "audio": "" },
+          { "word": "kåpe", "correct": false, "audio": "" },
+          { "word": "telefon", "correct": false, "audio": "" },
+          { "word": "fluesopp", "correct": true, "audio": "" }
+        ]
+      },
+      "secondPage": {
+        "instructionPre": "Trykk på ordene som viser til noe",
+        "instructionPost": ".",
+        "instructionAudio": "instruksjon-ufarlig.mp3",
+        "image": "",
+        "words": [
+          { "word": "høne", "correct": true, "audio": "" },
+          { "word": "kopp", "correct": true, "audio": "" },
+          { "word": "løve", "correct": false, "audio": "" },
+          { "word": "papir", "correct": true, "audio": "" },
+          { "word": "tarantella", "correct": false, "audio": "" },
+          { "word": "eksos", "correct": false, "audio": "" }
         ]
       }
     },
     {
       "kind": "TaskType4",
       "identifier": 3,
-      "morph": "mis",
+      "morph": "sam",
       "affix": "prefix",
-      "stem": "unner",
-      "morphedStem": "misunner",
+      "stem": "tale",
+      "morphedStem": "samtale",
       "firstPage": {
-        "instructionPre": "",
+        "instructionPre": "Dra ordet som passer til bildet inn i setningen.",
         "instructionPost": "",
-        "instructionAudio": "",
-        "image": "",
-        "captionPre": "",
-        "captionPost": "",
+        "instructionAudio": "instruksjon.mp3",
+        "image": "samtale.jpg",
+        "captionPre": "Det var en lang",
+        "captionPost": ".",
         "captionAudio": "",
         "words": [
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" }
+          { "word": "samtale", "correct": true, "audio": "" },
+          { "word": "samlebånd", "correct": false, "audio": "" },
+          { "word": "tale", "correct": false, "audio": "" },
+          { "word": "telle", "correct": false, "audio": "" }
         ],
-        "correct": 0
+        "correct": 1
       },
       "secondPage": {
-        "instructionPre": "",
+        "instructionPre": "instruksjon.mp3",
         "instructionPost": "",
         "instructionAudio": "",
-        "image": "",
-        "captionPre": "",
-        "captionPost": "",
+        "image": "tale.jpg",
+        "captionPre": "Det var en lang",
+        "captionPost": ".",
         "captionAudio": "",
         "words": [
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" },
-          { "word": "", "correct": false, "audio": "" }
+          { "word": "samtale", "correct": false, "audio": "" },
+          { "word": "samlebånd", "correct": false, "audio": "" },
+          { "word": "tale", "correct": true, "audio": "" },
+          { "word": "telle", "correct": false, "audio": "" }
         ],
-        "correct": 0
+        "correct": 1
+      }
+    },
+    {
+      "kind": "TaskType5",
+      "identifier": 4,
+      "morph": "løst",
+      "affix": "",
+      "stem": "lyd",
+      "morphedStem": "lydløst",
+      "firstPage": {
+        "instruction": "Plasser det som lager lyd i den gule boksen.",
+        "instruction2": "Plasser det som er lydløst i den hvite boksen.",
+        "instructionAudio": "instruksjon-lyd.mp3",
+        "instructionAudio2": "instruksjon-silent.mp3",
+
+        "image0": "whitebox.jpg",
+        "image1": "yellowbox.jpg",
+        "words": [
+          { "image": "hammer.jpg", "correctImage": 0, "audio": "" },
+          { "image": "fugl.jpg", "correctImage": 0, "audio": "" },
+          { "image": "silent-mobil.jpg", "correctImage": 1, "audio": "" },
+          { "image": "bil.jpg", "correctImage": 0, "audio": "" },
+          { "image": "feather.jpg", "correctImage": 1, "audio": "" },
+          { "image": "bjelle.jpg", "correctImage": 0, "audio": "" }
+        ]
       }
     }
+
   ]
 }
