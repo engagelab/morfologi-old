@@ -10,13 +10,13 @@
     "instructionAudio": "",
     "instruction2": "",
     "instruction2Audio": "",
-    "boxImage0": "",
-    "boxImage1": "",
+    "image0": "",
+    "image1": "",
     "words": [
-      { "word": "", "correctBox": -1, "audio": "" },
-      { "word": "", "correctBox": -1, "audio": "" },
-      { "word": "", "correctBox": -1, "audio": "" },
-      { "word": "", "correctBox": -1, "audio": "" }
+      { "word": "", "correctImage": -1, "audio": "" },
+      { "word": "", "correctImage": -1, "audio": "" },
+      { "word": "", "correctImage": -1, "audio": "" },
+      { "word": "", "correctImage": -1, "audio": "" }
     ]
   }
 }
